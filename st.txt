@@ -1,0 +1,36 @@
+[
+    {
+        describe: '登录模块',
+        path: '/user',
+        component: '../layouts/UserLayout',
+        routes: [
+            {
+                describe: '登录页',
+                path: '/user',
+                redirect: '/user/login',
+            },
+            {
+                describe: '登录页',
+                path: '/user/login',
+                component: './User/Login',
+            },
+        ],
+    },
+    {
+        describe: '登录模块',
+        path: '/user',
+        component: '../layouts/UserLayout',
+        routes: [
+            {
+                describe: '登录页',
+                path: '/user',
+                redirect: '/user/login',
+            },
+            {
+                describe: '登录页',
+                path: '/user/login',
+                component: './User/Login',
+            },
+        ],
+    },
+]
